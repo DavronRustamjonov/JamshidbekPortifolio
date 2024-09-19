@@ -5,10 +5,12 @@
 }
 
 .container {
-  max-width: 1140px;
   margin: 0 auto;
   padding: 20px;
   margin-bottom: 100px;
+  
+  background: linear-gradient(135deg, #8AB6F0, #A2C2E6); /* Ochroq gradient */
+
 }
 .section__container {
   margin-top: 130px;
@@ -19,16 +21,12 @@
 
 
 .section__list {
-  margin-top: 200px;
-  width: 100%;
-  height: 100vh;
+  margin-top: 20px;
   display: flex;
-  margin-left: 90px;
   align-items: center;
   font-family: 'ADLaM Display'; 
 
   padding: 0px 20px;
-  background: linear-gradient(135deg, #8AB6F0, #A2C2E6); /* Ochroq gradient */
   color: #FFFFFF; /* Matn rangi */
   border-radius: 5px; /* Burchaklarni yumshatish */
 }
