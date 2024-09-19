@@ -6,45 +6,35 @@
 
 .container {
   margin: 0 auto;
-  padding: 20px;
-  margin-bottom: 100px;
-  
+  padding: 15px;
   background: linear-gradient(135deg, #8AB6F0, #A2C2E6); /* Ochroq gradient */
-
 }
 .section__container {
-  margin-top: 130px;
   display: flex;
   text-align: left;
   align-items: center;
 }
-
-
 .section__list {
-  margin-top: 20px;
   display: flex;
   align-items: center;
-  font-family: 'ADLaM Display'; 
-
-  padding: 0px 20px;
+  font-family: 'ADLaM Display';
   color: #FFFFFF; /* Matn rangi */
-  border-radius: 5px; /* Burchaklarni yumshatish */
 }
 
 .section__text {
-  width: 650px;
+  width: auto;
   font-family: 'ADLaM Display'; 
-    font-size: 16px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0px;
   text-align: left;
   color: #33323D;
 }
-
+/* 
 .section__span {
   margin-left: 30px;
-}
+} */
 
 .section__title {
   font-family: 'ADLaM Display'; 
@@ -130,4 +120,33 @@
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/adlam-display-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@media(max-width:480px){
+.container{
+  padding: 10px 10px ;
+}
+
+}
+@media(max-width:420px){
+ .section__title{
+  width: 100%;
+  font-size: 20px;
+  font-weight: 490;
+  line-height: 33px;
+ }
+ .section__next-title{
+  font-size: 16px;
+  width: 100%;
+ }
+ .section__text{
+  font-size: 14px;
+  width: 100%;
+ }
+ .section__list{
+  width: 100%;
+ }
+ .container{
+  width: 100%;
+ }
+
 }
