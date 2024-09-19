@@ -1,0 +1,154 @@
+.footer__list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.footer__hr{
+    width: 534px;
+    height: 1px;
+    top: 48px;
+    left: 382px;
+    opacity: 15%;
+    color: #33323D;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.footer__text{
+    width: 350px;
+    height: 84px;
+    font-family: "Ibarra Real Nova" ,sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+    color: #33323D;
+}
+.footer__btn{
+    width: 162px;
+    height: 48px;
+    font-family: "Public Sans" , sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    background: white;
+    border: 0.25px solid #33323D;
+    margin-bottom: 45px;
+}
+.footer__btn:hover{
+    
+    color: #FFFFFF;
+    background: #33323D;
+}
+.footer__next-list{
+    position: absolute;
+    display: flex;
+    background: #33323D;
+    align-items: center;
+
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 100px;
+    width: 1340px;
+    height: 80px;
+    margin-right: 50px;
+    left: -110px;
+}
+.footer__container{
+    position: relative;
+}
+.footer__item{
+    position: relative;
+}
+.footer__wrapper{
+    position: absolute;
+    top: 13px;
+    margin-left: 20px;
+    width: 309px;
+    height: 14px;
+}
+.footer__img{
+    margin-left: 100px;
+}
+.footer__link{
+     text-decoration: none;
+     width: 43px;
+     height: 14px;
+     font-family: "Public Sans" , sans-serif;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 14px;
+     letter-spacing: 2px;
+     text-align: center;
+     color: #FFFFFF;
+     padding-right: 23px;
+
+}
+.footer__next-link{
+    margin-right: 15px;
+}
+.footer__next-item{
+    margin-right:100px;
+}
+.footer__link:hover{
+    color: #070606;
+}
+/* public-sans-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/public-sans-v15-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* public-sans-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/public-sans-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* public-sans-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/public-sans-v15-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* public-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/public-sans-v15-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* ibarra-real-nova-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/ibarra-real-nova-v27-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* ibarra-real-nova-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/ibarra-real-nova-v27-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* ibarra-real-nova-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/ibarra-real-nova-v27-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
